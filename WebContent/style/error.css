@@ -1,0 +1,50 @@
+@charset "UTF-8";
+html {
+   box-sizing: border-box;
+}
+
+.error {
+   position: relative;
+   right: 0%;
+   top: 100px;
+   font-family: margin-top : 500px;
+   text-align: center;
+   font-size: 5em;
+   font-weight: bolder;
+   margin: auto;
+   align-content: center;
+   color: red;
+}
+
+.error2 {
+   text-align: center;
+   font-size: 24px;
+   color: black;
+   font-weight: 100;
+   line-height: 10px;
+}
+
+div#simulook {
+   position: relative;
+   left: 40%;
+   background-image:
+      url("http://www.pokergosu.com/files/attach/images/128/977/250/fbb23931dd2ba481de30bbe1c83139e3.jpg");
+   background-repeat: no-repeat;
+   height: 200px;
+}
+
+a[href] {
+   font-size: 24px;
+   text-decoration: none;
+   color: black;
+}
+
+.button {
+   border: 1px solid;
+   border-radius: 8px;
+   padding: 5px;
+}
+
+a:hover {
+   color: blue;
+}

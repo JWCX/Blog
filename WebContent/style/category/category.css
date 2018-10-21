@@ -1,0 +1,113 @@
+@charset "UTF-8";
+.headings {
+	position: relative;
+	left: 2%;
+	margin-bottom:0;
+	width: 80%;
+}
+.container {
+	padding: 20px;
+}
+
+#name{
+	padding-left: 10px;
+}
+
+.post {
+	border-bottom: 1px solid rgba(255,255,255,0.5);
+	box-shadow: 0 3px 5px -4px rgba(255,255,255,0.3);
+	border-radius: 3px;
+	margin: 5px 0;
+	padding: 3px 0;
+	cursor: pointer;
+}
+
+
+.comment {
+	position: relative;
+	left: 15px;
+	font-size: 0.7em;
+}
+
+a[href] {
+	text-decoration: none;
+}
+
+.page {
+	position: relative;
+	left: 46%;
+	display: inline-block;
+	font-size: 0.8em;
+	padding: 1px;
+}
+
+.page-next {
+	position: relative;
+	left: 46%;
+	display: inline-block;
+	font-size: 0.8em;
+}
+
+.button {
+	margin: 10px;
+}
+
+#select {
+	position: absolute;
+	left: 88%;
+}
+#list{
+}
+#table-head{
+	border-bottom: 1px solid rgba(255,255,255,0.7);
+	box-shadow: 0 3px 5px -4px rgba(0,0,0,0.8);
+}
+.post-number {
+	postition: relative;
+	width: 4%;
+	height:22px;
+	display: inline-block;
+	text-align: center;
+	overflow: hidden;
+}
+.post-title {
+	postition: relative;
+	width: 50%;
+	height:22px;
+	display: inline-block;
+	text-decoration: none;
+	color:black;
+	overflow: hidden;
+}
+.post-page-views {
+	postition: relative;
+	width: 8%;
+	height:22px;
+	display: inline-block;
+	text-align: center;
+	overflow: hidden;
+}
+.post-page-comments {
+	postition: relative;
+	width: 8%;
+	height:22px;
+	display: inline-block;
+	text-align: center;
+	overflow: hidden;
+}
+.post-page-likes {
+	postition: relative;
+	width: 8%;
+	height:22px;
+	display: inline-block;
+	text-align: center;
+	overflow: hidden;
+}
+.post-date {
+	postition: relative;
+	width: 18%;
+	height:22px;
+	display: inline-block;
+	text-align: center;
+	overflow: hidden;
+}

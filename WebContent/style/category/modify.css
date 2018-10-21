@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+#category-modify-container {
+	position: absolute;
+	left: 50%;
+	margin: 20px 0 20px 0;
+	transform: translatex(-50%);
+	overflow: hidden; 
+	width: 500px; 
+	border-radius: 10px; 
+	border:1px grey solid;
+	padding-bottom: 10px;
+}
+
+#category-modify-container .categories {
+	position: relative; 
+	border: 1px black solid; 
+	width: 30%; 
+	margin:5px; 
+	padding:10px; 
+	text-decoration: none; 
+}
+
+.category-depth-1 {
+	padding: 10px 0px 1px 10px;
+}
+.category-depth-2 {
+	padding: 1px 0px 1px 55px;
+}
+
+.category-insert-btn {
+	margin-left: 10px;
+}

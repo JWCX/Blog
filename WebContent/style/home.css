@@ -1,0 +1,98 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css?family=Nanum+Myeongjo:400,700&amp;subset=korean");	
+@import url('https://fonts.googleapis.com/css?family=Cinzel:400,700&subset=latin-ext');
+
+html, body {
+	height: 100%;
+}
+body {
+	font-family: Nanum Myeongjo, serif;
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+
+
+#first-page-container {
+	position: relative;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+.first-page-backgrounds {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+
+#first-page-heading {
+	position: absolute;
+	top: 30%;
+	left: 50%;
+	width: 80%;
+	height: 20%;
+	transform: translatex(-50%);
+	text-align: center;
+	color: white;
+	font-family: 'Cinzel', 'Nanum Myeongjo', serif;
+	font-weight: normal;
+	font-size: 3em;
+}
+
+
+#scroll-down-button {
+	position: absolute;
+	left: 50%;
+	bottom: 3%;
+	transform: translatex(-50%);
+	width: 32px;
+	height: 44px;
+	cursor: pointer;
+}
+#scroll-down-button .arrows {
+	position: absolute;
+	left: 50%;
+	transform: translatex(-50%);
+	width: 24px;
+	height: 24px;
+}
+
+
+#social-container {
+	position: absolute;
+	right: 3%;
+	bottom: 3%;
+	width: 250px;
+	height: 44px;
+	border-top: solid 1px rgba(222,222,255,0.3);
+	border-bottom: solid 1px rgba(222,222,255,0.4);
+	border-left: solid 1px rgba(222,222,255,0.1);
+	border-right: solid 1px rgba(222,222,255,0.1);
+	border-radius: 6px;
+}
+#social-container .social-buttons {
+	position: absolute;
+	top: 50%;
+	transform: translatey(-50%);
+	width: 32px;
+	height: 32px;
+	border-bottom: solid 1px rgba(222,222,255,0.7);
+	border-radius: 8px;
+	box-shadow: 0 10px 20px -5px rgba(222,222,255,0.3);
+}
+#social-container .social-buttons .social-icons {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	width: 28px;
+	height: 28px;
+	cursor: pointer;
+}
+

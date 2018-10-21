@@ -1,0 +1,208 @@
+@charset "UTF-8";
+
+* {
+   margin: 0px;
+}
+
+body {
+   width: auto;
+}
+
+.container {
+	position: relative;
+	width: auto;
+	border-bottom: 1px solid rgba(255,255,255,0.5);
+	box-shadow: 0 3px 5px -4px rgba(255,255,255,0.3);
+	margin: 10px;
+}
+
+#category {
+   display: inline-block;
+   margin: 10px;
+   padding-left: 10px;
+}
+
+#regdate {
+   display: inline-block;
+   position: absolute;
+   right: 1%;
+   font-size: 0.7em;
+}
+
+#hits {
+   display: inline-block;
+   position: absolute;
+   right: 1%;
+   bottom:10%;
+   width: 80px;
+   font-size: 0.8em;
+   text-align: right;
+}
+
+#post-title {
+   margin: 10px;
+   font-size: 2em;
+   width: 80%;
+   text-align: justify;
+}
+
+#editor {
+   border: 0;
+   padding: 20px;
+}
+
+#content-menu {
+   margin: 10px;
+}
+
+.comment-icon {
+   display: inline-block;
+   font-size: 0.8em;
+}
+
+#evaluationCnt {
+   position: relative;
+   left: 2%;
+   font-size: 0.8em;
+}
+
+#modify {
+   margin-right: 10px; 
+   position: absolute;
+   right: 100%;
+}
+#like {
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	right: 225%;
+	cursor: pointer;
+	background-image: url("../../image/icon/like/heart_filled_240.png");
+	background-size: cover;
+}
+#remove {
+}
+#modify-remove{
+   display: inline-block;
+   position: absolute;
+   right: 1%;
+}
+
+textarea {
+   display: inline-block;
+   position: relative;
+   width: 80%;
+   margin: 10px;
+   height: 80px;
+   resize: none;
+
+}
+
+#checkbox {
+   position: relative;
+   display: inline-block;
+}
+th{
+   font-size: 0.7em;
+   width: 90px;
+}
+.comment {
+   margin: 10px;
+   padding: 10px;
+   	border-bottom: 1px solid rgba(255,255,255,0.5);
+	box-shadow: 0 3px 5px -4px rgba(255,255,255,0.3);
+}
+#comment-write{
+   margin: 10px;
+   width: 90%;
+}
+
+th {
+   text-align: left;
+   font-size: 0.9em;
+}
+
+.comment-date {
+   font-size: 0.8em;
+   color: gray;
+}
+
+.nickname {
+   font-weight: bold;
+   font-size: 0.9em;
+}
+
+.button {
+   font-size: 0.6em;
+}
+
+.comment-content {
+   padding: 10px;
+   font-size: 0.9em;
+   overflow: auto;
+}
+a[href]{
+   text-decoration: none;
+   color: black;
+}
+#comment-container{
+   width: 100%;
+}
+.input{
+   width: 166px; 
+}
+
+#comment-content-box{
+   display: inline-block;
+}
+.comment-inform{
+   margin: 10%;
+}
+#comment-name{
+   width: 26%;
+   position:relative;
+   display: inline-block;
+
+}
+#comment-pw{
+   width: 35%;
+   position:relative;
+   display: inline-block;
+   
+}
+#comment-write-box{
+   position: relative;
+}
+#textarea{
+   text-align: center;
+}
+#comment-info-outer{
+   display: inline-block;
+   position: relative;
+   left: 50%;
+   transform: translate(-50%);
+   width: 80%;
+   height: 30px;
+   font-size: 0.8em;
+
+}
+#comment-info{
+	width:80%;
+	display: inline-block;
+}
+#visible-sub{
+   display: inline-block;
+}
+#visible {
+   position: relative;
+   text-align: right;
+   display: inline-block;
+   width:18%;
+   top: 50%;
+   transform: translateY(-50%);
+   
+}
+
+.input-field{
+	width: 33%;
+}
